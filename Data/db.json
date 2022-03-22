@@ -1,0 +1,19 @@
+{
+	"news": [
+		{
+			"name": "dunyo",
+			"soha": "urush",
+			"id": 1
+		},
+		{
+			"name": "dunyo",
+			"soha": "tarix",
+			"id": 2
+		},
+		{
+			"name": "Texno",
+			"soha": "IT",
+			"id": 3
+		}
+	]
+}
