@@ -5,9 +5,17 @@
     <router-link :to="{ name: 'news' }">News</router-link>
   </nav>
   <router-view />
+  <Buttons />
 </template>
 <script>
-export default {};
+import Buttons from "./components/Buttons.vue";
+
+export default {
+  name: "App",
+  components: {
+    Buttons,
+  },
+};
 </script>
 <style lang="scss">
 #app {

@@ -1,6 +1,9 @@
 <template>
-  <h1>News Detail page</h1>
-  <h2>{{ news.soha }}</h2>
+  <div v-if="id > 0 || news.length > 0">
+    <h1>News Detail page</h1>
+    <h2>{{ news.soha }}</h2>
+  </div>
+  <div v-else>No such kind of news</div>
 </template>
 
 <script>
